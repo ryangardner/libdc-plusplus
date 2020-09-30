@@ -1,5 +1,5 @@
 /*
- * Deepblu Cosmiq+ downloading/parsing
+ * Deep6 Excursion downloading/parsing
  *
  * Copyright (C) 2020 Ryan Gardner
  *
