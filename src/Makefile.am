@@ -87,6 +87,7 @@ libdivecomputer_la_SOURCES += \
 	field-cache.h field-cache.c \
 	garmin.h garmin.c garmin_parser.c \
 	deepblu.h deepblu.c deepblu_parser.c \
+	deepsix.h deepsix.c deepsix_parser.c \
 	oceans_s1.h oceans_s1.c oceans_s1_parser.c
 
 if OS_WIN32

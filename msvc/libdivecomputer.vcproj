@@ -529,6 +529,13 @@
 			<File
 				RelativePath="..\src\deepblu_parser.c"
 				>
+			<File
+				RelativePath="..\src\deepsix.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\deepsix_parser.c"
+				>
 			</File>
 			<File
 				RelativePath="..\src\mclean_extreme.c"
