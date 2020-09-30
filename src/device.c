@@ -63,6 +63,7 @@
 // Not merged upstream yet
 #include "garmin.h"
 #include "deepblu.h"
+#include "deepsix.h"
 #include "oceans_s1.h"
 
 #include "device-private.h"
@@ -234,6 +235,9 @@ dc_device_open (dc_device_t **out, dc_context_t *context, dc_descriptor_t *descr
 	case DC_FAMILY_DEEPBLU:
 		rc = deepblu_device_open (&device, context, iostream);
 		break;
+    case DC_FAMILY_DEEPSIX:
+        rc = deepsix_device_open (&device, context, iostream);
+        break;
 	case DC_FAMILY_OCEANS_S1:
 		rc = oceans_s1_device_open(&device, context, iostream);
 		break;
